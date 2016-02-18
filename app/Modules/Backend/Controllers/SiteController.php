@@ -7,7 +7,7 @@ use App\Components\Controller;
 class SiteController extends Controller {
     
     public function actionIndex(){
-       return view('welcome');
+       return view('Backend::index');
     }
     
 }
